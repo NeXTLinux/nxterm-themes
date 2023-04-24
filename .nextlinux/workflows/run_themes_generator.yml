@@ -1,0 +1,14 @@
+---
+name: "Run nxterm themes preview generator"
+command: "python3 ./scripts/gen_theme_previews.py {{directory}}"
+tags:
+  - nextlinux
+  - cyberoslab
+description: "Run nxterm themes preview generator"
+arguments:
+  - name: directory
+    description: The directory to generate themes for
+    default_value: standard
+source_url: "https://next-linux.systems"
+author: cyberoslab
+shells: []
